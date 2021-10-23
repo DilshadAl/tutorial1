@@ -71,6 +71,7 @@ function makeBookmark() {
 
 }
 
+
 function validateInput() {
     if (siteName.value === "" && urlName.value === "") {
         siteNameErrMsgEl.textContent = "Required*";
